@@ -1,0 +1,117 @@
+html,
+body,
+div,
+footer{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background-color:burlywood;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  color: brown;
+  text-align: center;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5bd0a64a7eb88c2eafe905ec/1556051508617-1AVEMWRFS15C0OXVU44B/Aspen+Light+Grey_Panel+%281%29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;;
+}
+
+p{
+  font-size: 14px;
+}
+hr{
+  border-radius: 10px;
+}
+
+a#botao button{
+  margin-top: 20p;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 10px;
+  cursor: pointer;
+}
+
+a#botao img{
+  height: 40px;
+}
+
+div#imagens{
+  display: flex;
+  width: 100%;
+}
+
+div#imagens img{
+  width: calc(100% / 4);
+  display: block;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  width: 25%;
+}
+
+h2{
+  text-align: center;
+}
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  background-color:goldenrod;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img#logo {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a {
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+  color: burlywood;
+}
+
+footer{
+  background-color: brown;
+  color: beige;
+  text-align: center;
+}
